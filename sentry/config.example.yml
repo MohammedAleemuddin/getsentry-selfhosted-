@@ -10,8 +10,8 @@
 # mail.backend: 'smtp'  # Use dummy if you want to disable email entirely
 mail.host: 'smtp.gmail.com'
 mail.port: 465
-mail.username: 'mohammed.aleemuddin@broadlume.com'
-mail.password: 'ethpduprkmrttxzt'
+mail.username: ''
+mail.password: 'use-app-password'
 # mail.use-tls: false
 mail.use-ssl: true
 # NOTE: The following 2 configs (mail.from and mail.list-namespace) are set
