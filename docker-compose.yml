@@ -132,7 +132,7 @@ services:
       POSTGRES_HOST_AUTH_METHOD: "trust"
     volumes:
       - "sentry-postgres:/var/lib/postgresql/data"
-    zookeeper:
+  zookeeper:
     <<: *restart_policy
     image: "confluentinc/cp-zookeeper:7.6.1"
     environment:
@@ -560,6 +560,7 @@ volumes:
   sentry-secrets:
   sentry-smtp:
   sentry-nginx-cache:
+  sentry-zookeeper-log:
   sentry-kafka-log:
   sentry-smtp-log:
   sentry-clickhouse-log:
