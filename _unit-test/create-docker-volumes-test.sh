@@ -13,6 +13,7 @@ expected_volumes="sentry-clickhouse
 sentry-data
 sentry-kafka
 sentry-postgres
+sentry-zookeper 
 sentry-redis
 sentry-symbolicator"
 
